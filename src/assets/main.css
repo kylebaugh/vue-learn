@@ -1,0 +1,77 @@
+
+html, body, div, span, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#home{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    border: 1px solid black;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.itemForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.formLabel{
+    font-size: large;
+    width: 125%;
+    text-align: center;
+}
+
+#addFormButtons{
+    display: flex;
+    gap: 40px;
+}
+
+.formButton{
+    font-size: medium;
+}
+
+#listDisplay{
+    display:flex;
+    /* width: 100vw; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.list{
+    text-align: center;
+    /* width: 40%; */
+}
+
+.itemCard{
+    display:flex;
+    justify-content: space-between;
+    width: 40vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.itemCardElement{
+    width: 30%;
+}
